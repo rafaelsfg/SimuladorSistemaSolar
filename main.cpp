@@ -66,18 +66,18 @@ void initCorposCelestes()
     CorpoCeleste::setEscalaRaio(45.0);
 
     // Cria o Sol
-    listaCorpo[SOL].dadosCorpo("Dados/Sol.txt", SOL);
-    listaCorpo[SOL].textura("Texturas/sol.jpg");
+	listaCorpo[SOL].dadosCorpo("Dados/Sol.txt", SOL);
+	listaCorpo[SOL].textura("Texturas/sol.jpg");
 	//listaCorpo[SOL].setExibeEixos(true);
 
     // Cria Mercúrio
-    listaCorpo[MERCURIO].dadosCorpo("Dados/Mercurio.txt", MERCURIO);
-    listaCorpo[MERCURIO].textura("Texturas/mercurio.jpg");
-    listaCorpo[MERCURIO].setCorpoPai(&listaCorpo[SOL]);
+	listaCorpo[MERCURIO].dadosCorpo("Dados/Mercurio.txt", MERCURIO);
+	listaCorpo[MERCURIO].textura("Texturas/mercurio.jpg");
+	listaCorpo[MERCURIO].setCorpoPai(&listaCorpo[SOL]);
 
     // Cria Vênus
-    listaCorpo[VENUS].dadosCorpo("Dados/Venus.txt", VENUS);
-    listaCorpo[VENUS].textura("Texturas/venus.jpg");
+	listaCorpo[VENUS].dadosCorpo("Dados/Venus.txt", VENUS);
+	listaCorpo[VENUS].textura("Texturas/venus.jpg");
 	listaCorpo[VENUS].setCorpoPai(&listaCorpo[SOL]);
 	listaCorpo[VENUS].setDiffRot(190.0);
 
