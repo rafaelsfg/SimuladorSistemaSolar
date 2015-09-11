@@ -3,7 +3,7 @@
  *
  * 12/02/2015
  *
- * Copyright 2015 Rafael Andrade
+ * Copyright 2015 Rafael Andrade <rafaelsandrade@gmail.com>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
