@@ -65,7 +65,7 @@ int bot_mouse = 0;          // Botão clicado do mouse (-1 se esquerdo e 1 se dir
 void CriaPlaneta(void)
 {
     printf("*** Sistema Solar - versao 2.4 (29/12/2013) ****");
-    printf("\npor Rafael S. Andrade - rafaelsfg@hotmail.com\n\n");
+    printf("\npor Rafael S. Andrade - rafaelsandrade@gmail.com\n\n");
     printf("Criando os planetas...\n");
 
     /////// Cria o Sol
