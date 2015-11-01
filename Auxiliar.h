@@ -1,7 +1,7 @@
 /*
  * Auxiliar.h
  *
- * Copyright 2012 Rafael S. Andrade <rafaelsfg@hotmail.com>
+ * Copyright 2012 Rafael S. Andrade <rafaelsandrade@gmail.com>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
